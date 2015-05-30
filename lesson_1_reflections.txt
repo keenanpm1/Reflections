@@ -1,0 +1,34 @@
+How did viewing a diff between two versions of the file help you see the bug that was introduced?
+I was able to see a line that was added to the new file.
+This narrowed my search to lines that had changed between the new and old files.
+With my attention narrowed to this smaller collection of text the bug/typo was easier to spot.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+If something was working and stopped in a newer version it would be easier to find the offending code.
+It would be possible to recover work not recognized as useful that had previously been discarded.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+The manual approach allows the commits to occur in logically distinct groupings.
+
+Why do yo think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The difference is due to the intended usage of the files.
+The main focus of Google Docs seems to be on projects files in which each document is a stand alone.
+With Git the files can be interconnected and it doesn't make senses to keep them separate.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Git log displays the changes that have occurred in a repository.
+Git log --stat contains more information, and I was able to answer the quiz question from it.
+The git diff command compairs two commits.  Very useful.
+
+How might using version control make you more confident to make changes that could break something?
+
+Not sure.  I wasn't sucessful finding where the error occured.
+I will need more practice with this before I can get any confidence.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I think it would be good to use git to track changes to the .bash_profile file.
+I learned a long time ago that it is important to make sure this file is always working, or atleast there is always a working version of it around.
