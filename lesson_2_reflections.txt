@@ -17,3 +17,7 @@ When trying out experimental ideas.  When creating a specialized version of some
 How do the diagrams help you visualize the branch structure?
 
 Then allow one to see what commits are in the branch and which are not.
+
+What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+
+The commits/changes to the code are combinded in to a single file.  The diagram is displayed in such a way that the parent of each commit is preserved.
