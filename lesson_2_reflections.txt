@@ -21,3 +21,8 @@ Then allow one to see what commits are in the branch and which are not.
 What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
 
 The commits/changes to the code are combinded in to a single file.  The diagram is displayed in such a way that the parent of each commit is preserved.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The con is that Git could be set up to make the wrong choices, and merge this in ways that casues problems.  The pro of automatic merging is that the user gets resuls more easily.
+
