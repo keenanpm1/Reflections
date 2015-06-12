@@ -32,3 +32,14 @@ Now that you have your workspace set up, what do you want to try using Git for?
 
 I think it would be good to use git to track changes to the .bash_profile file.
 I learned a long time ago that it is important to make sure this file is always working, or atleast there is always a working version of it around.
+
+
+Commands:
+
+q     Exit git log
+git log     List the commits and show which files have changed
+git log -- stat     Show additional information about the commits
+git diff id1 id2     Compare two commits
+git clone     Create a local copy/clone from a repository
+git config --global color.ui auto     Get colered diff output
+git checkout     Shows a previous verson of the file.  This is not a checkout to edit like in SVN or TFS.
