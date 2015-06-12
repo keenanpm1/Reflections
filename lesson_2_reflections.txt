@@ -26,3 +26,18 @@ What are the pros and cons of Git's automatic merging vs. always doing merges ma
 
 The con is that Git could be set up to make the wrong choices, and merge this in ways that casues problems.  The pro of automatic merging is that the user gets resuls more easily.
 
+
+Commands:
+
+git add     Add a file to the stagging area
+git commit     Commit the files from the staging area to the repository
+git status     Show which files are in the staging area, and which files from the working directory are not part of the repository
+git diff     Git diff without arguments is comparing the working directory with the stagging area
+git diff --staged     Compare the staging area with the repository
+git reset --hard     Undo all changes.  There is no rollback for this.
+git checkout master     Restore the "Head" to the latest check-in.
+git log --graph --online <branch1> <branch2>     Show a visual representation of the commit history within different branches
+git checkout -b new_branch_name     Creates a new branch and do a checkout on this branch in one call instead of git branch new_branch_name and git checkout new_branch_name
+git merge branch1 branch2     Merge two branches, branch2 gets merged into branch1
+git branch -d name     Remove the branch with the specified name
+git show commitId     show the changes mad in this commit compared to the previous version.
