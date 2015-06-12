@@ -11,3 +11,4 @@ Commands:
 
 git clone **html/path**     Clone a git repository.  Make a copy
 git remote -v     Print the path names for the push and pull locations
+git push origin master     Push changes made locally to the GitHub
