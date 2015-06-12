@@ -5,3 +5,9 @@ When you are working on a single computer by yourself it makes sense to keep all
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 When working in a group you may not want other peoples changes to interfere with your work untill you are ready.
+
+
+Commands:
+
+git clone **html/path**     Clone a git repository.  Make a copy
+git remote -v     Print the path names for the push and pull locations
