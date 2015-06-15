@@ -17,3 +17,6 @@ git clone **html/path**     Clone a git repository.  Make a copy
 git remote -v     Print the path names for the push and pull locations
 git push origin master     Push changes made locally to the GitHub
 git diff     Show changes to the repository not committed or staged
+git status    Show status of commits, used to show chili recipe local is on commit ahead of the one on GitHub
+git fetch     
+git pull origin master = git fetch origin + git merge master origin/master
