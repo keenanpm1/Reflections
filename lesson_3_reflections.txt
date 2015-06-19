@@ -24,3 +24,9 @@ git diff     Show changes to the repository not committed or staged
 git status    Show status of commits, used to show chili recipe local is on commit ahead of the one on GitHub
 git fetch     
 git pull origin master = git fetch origin + git merge master origin/master
+git pull requests     
+git branch different-oil     Create a new branch for a suggested change
+git checkout different-oil     Checkout the new branch
+git add cake-recipe.txt     Add the changes to the pending folder
+git commit     Commit the change to the repository
+git push origin different-oil     Push the new branch to GitHub
