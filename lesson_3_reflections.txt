@@ -15,6 +15,11 @@ What is the benefit of having a copy of the last known state of the remote store
 
 It allows a local user to realize when the local copy has been modified and possible needs to be pushed to the remote copy.
 
+How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+Collaboration without Git or GitHub would require a greate deal more dillegence to communicate changes.  I believe it is easier to use Git and GitHub as the system facilitates interaction and prompts the user to note each change as it is commited.
+
+
 Commands:
 
 git clone **html/path**     Clone a git repository.  Make a copy
